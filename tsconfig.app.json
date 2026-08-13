@@ -26,6 +26,7 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
-  },
-  "include": ["*.ts", "*.tsx"]
+    },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "exclude": ["index.worker.ts"]
 }
